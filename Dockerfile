@@ -19,3 +19,13 @@ EXPOSE 3000
 
 # ใช้ serve เพื่อรันโปรเจกต์ที่ build แล้ว
 CMD ["npx", "serve", "-s", "dist"]
+
+
+# npx serve -s dist -run web server
+
+# docker build -t minecoe/suriyapi-docker-3 .
+# docker ps --all --> show all container
+# docker run -d -p 3000:3000 --name react-docker
+
+# git remote remove origin
+# git remote -v
